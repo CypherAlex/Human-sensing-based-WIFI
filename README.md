@@ -6,13 +6,13 @@
 
 ## 数据采集
 
-<img src="image-20241020084828503.png" alt="image-20241020084828503" style="zoom: 33%;" />
+<img src="image-20241020084828503.png" alt="image-20241020084828503" style="zoom: 0.33;" />
 
 其中路由器为WI-FI信号发射端，ESP-S3为接收端。
 
 发射端路由器只要处于正常开启状态即可。
 
-接收端ESP32-S3需要经过烧录连接电脑才能接受WI-FI信号。烧录教程请参考https://github.com/espressif/esp-csi。电脑需要安装esp-csi-master命令行，文件及说明在esp-csi-master中。
+接收端ESP32-S3需要经过烧录连接电脑才能接受WI-FI信号。烧录教程请参考https://github.com/espressif/esp-csi 电脑需要安装esp-csi-master命令行，文件及说明在esp-csi-master中。
 
 采集的代码为mulitiSerials.py和sametimeProcess.py，直接运行即可采集数据。数据为15秒一组。**在采集数据时需要创建名称为动作标签的文件夹，同时在更改采集代码中的CSV储存地址。**
 
