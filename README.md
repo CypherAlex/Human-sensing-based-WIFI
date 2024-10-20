@@ -6,7 +6,7 @@
 
 ## 数据采集
 
-<img src="C:\Users\25827\AppData\Roaming\Typora\typora-user-images\image-20241020084828503.png" alt="image-20241020084828503" style="zoom: 33%;" />
+<img src="image-20241020084828503.png" alt="image-20241020084828503" style="zoom: 33%;" />
 
 其中路由器为WI-FI信号发射端，ESP-S3为接收端。
 
@@ -18,11 +18,11 @@
 
 采集到的数据格式如下所示：
 
-![image-20241020094553511](C:\Users\25827\AppData\Roaming\Typora\typora-user-images\image-20241020094553511.png)
+![image-20241020094553511](image-20241020094553511.png)
 
 为尽量减轻环境因素变化带来的影响，我们在桌面采集动作时的环境设计为
 
-![image-20241020095632368](C:\Users\25827\AppData\Roaming\Typora\typora-user-images\image-20241020095632368.png)
+![image-20241020095632368](image-20241020095632368.png)
 
 为保证效果尽量在连线处做动作。我们初步设计的动作为：人不在电脑前、人在电脑前注视屏幕但无动作、人在电脑前敲击键盘、人在电脑前移动鼠标。动作幅度尽量大，初期每种数据采集150组。根据实验效果来确定后续的动作设计。
 
@@ -32,7 +32,7 @@
 
 处理得到的数据如下所示：
 
-![image-20241020101546692](C:\Users\25827\AppData\Roaming\Typora\typora-user-images\image-20241020101546692.png)
+![image-20241020101546692](image-20241020101546692.png)
 
 理论来讲我们提取到的data中有104个数据，组成52个子载波的信息，但一部分实际测量到的数据多于104，我们在此只是简单的提取前104个。
 
